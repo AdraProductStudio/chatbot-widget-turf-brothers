@@ -142,22 +142,22 @@
                                 width: 100%;
                                 height: 100%;
                                 background-color: #0000005e;
-                                position: absolute;
-                                top: 50%;
-                                left: 50%;
-                                transform: translate(-50%, -50%);
+                                position: absolute !important;
+                                top: 50% !important;
+                                left: 50% !important;
+                                transform: translate(-50%, -50%) !important;
                                 z-index: 99999 !important;
                                 padding: 15px;
                                 font-size: 14px;
                                 border-radius: 7px;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                display: none;
+                                display: flex !important;
+                                justify-content: center !important;
+                                align-items: center !important;
+                                display: none !important;
                             }
 
                             .Adra-MR-chatbot .loading-container.show {
-                                display: flex;
+                                display: flex !important;
                                 
                             }
 
