@@ -88,7 +88,7 @@
                                 opacity: 0;
                                 transition: all 0.2s linear;
                                 border: 1px solid rgb(228, 228, 228);
-                                z-index: 99999999999999999 !important;
+                                z-index: 99999999999999999999 !important;
                             }
 
                             .Adra-MR-chatbot .feedback-modal {
@@ -158,6 +158,7 @@
 
                             .Adra-MR-chatbot .loading-container.show {
                                 display: flex;
+                                
                             }
 
 
@@ -814,7 +815,7 @@
             MRMessageIcon.className = "message-icon";
             MRMessageIcon.innerHTML = `
                                 <img 
-                                    src="https://d1olhs2thomfrd.cloudfront.net/bot-open.png" 
+                                    src="./bot-open.png" 
                                     style="width: 60px; height: 60px;" 
                                     alt="Message Icon"
                                 />
@@ -825,7 +826,7 @@
 
             MRCloseIcon.innerHTML = `
                                 <img 
-                                    src="https://d1olhs2thomfrd.cloudfront.net/bot-close.png" 
+                                    src="./bot-close.png" 
                                     style="width: 60px; height: 60px;" 
                                     alt="Message Icon"
                                 />
