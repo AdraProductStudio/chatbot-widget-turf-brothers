@@ -415,6 +415,15 @@
                                 margin: inherit;
                             }
 
+                            .Adra-MR-chatbot .essence-img {
+                                width: 30px !important;
+                                height: 30px !important;
+                                margin: inherit;
+                                background-color:#f5f5f5 !important;
+                                border-radius:50%;
+                                padding:5px;
+                            }
+
                             .Adra-MR-chatbot .placeholder-msg {
                                 display: flex;
                                 width: 85%;
@@ -850,7 +859,7 @@
             essenceImg.className = "essence-img";
             essenceImg.setAttribute(
                 "src",
-                "https://d2jcmbeljpidf8.cloudfront.net/bot-image.png"
+                "./bot-image.png"
             );
 
 
@@ -993,7 +1002,7 @@
                     essenceImg2.className = "essence-img";
                     essenceImg2.setAttribute(
                         "src",
-                        "https://d2jcmbeljpidf8.cloudfront.net/bot-image.png"
+                        "./bot-image.png"
                     );
                     var incomingMsgText2 = document.createElement("p");
                     incomingMsgText2.className = "placeholder-msg-text";
@@ -1098,7 +1107,7 @@
                         essenceImg.className = "essence-img";
                         essenceImg.setAttribute(
                             "src",
-                            "https://d2jcmbeljpidf8.cloudfront.net/bot-image.png"
+                            "./bot-image.png"
                         );
 
 
@@ -1127,7 +1136,7 @@
                     essenceImg.className = "essence-img";
                     essenceImg.setAttribute(
                         "src",
-                        "https://d2jcmbeljpidf8.cloudfront.net/bot-image.png"
+                        "./bot-image.png"
                     );
 
 
@@ -1159,7 +1168,7 @@
                     essenceImg.className = "essence-img";
                     essenceImg.setAttribute(
                         "src",
-                        "https://d2jcmbeljpidf8.cloudfront.net/bot-image.png"
+                        "./bot-image.png"
                     );
 
 
@@ -1198,7 +1207,7 @@
 
 
                 const personImg = document.createElement("img");
-                personImg.className = "essence-img";
+                personImg.className = "person-img";
                 personImg.setAttribute(
                     "src",
                     "https://d2jcmbeljpidf8.cloudfront.net/user-image.png"
